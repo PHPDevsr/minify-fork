@@ -10,10 +10,10 @@
  * @license MIT License
  */
 
-namespace MatthiasMullie\Minify;
+namespace PHPDevsr\Minify;
 
-use MatthiasMullie\Minify\Exceptions\FileImportException;
-use MatthiasMullie\Minify\Exceptions\PatternMatchException;
+use PHPDevsr\Minify\Exceptions\FileImportException;
+use PHPDevsr\Minify\Exceptions\PatternMatchException;
 use MatthiasMullie\PathConverter\Converter;
 use MatthiasMullie\PathConverter\ConverterInterface;
 

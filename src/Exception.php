@@ -8,7 +8,7 @@
  * @author Matthias Mullie <minify@mullie.eu>
  */
 
-namespace MatthiasMullie\Minify;
+namespace PHPDevsr\Minify;
 
 /**
  * Base Exception Class.

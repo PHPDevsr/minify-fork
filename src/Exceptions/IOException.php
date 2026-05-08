@@ -10,7 +10,7 @@
  * @license MIT License
  */
 
-namespace MatthiasMullie\Minify\Exceptions;
+namespace PHPDevsr\Minify\Exceptions;
 
 /**
  * IO Exception Class.

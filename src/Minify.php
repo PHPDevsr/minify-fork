@@ -10,10 +10,10 @@
  * @license MIT License
  */
 
-namespace MatthiasMullie\Minify;
+namespace PHPDevsr\Minify;
 
-use MatthiasMullie\Minify\Exceptions\IOException;
-use MatthiasMullie\Minify\Exceptions\PatternMatchException;
+use PHPDevsr\Minify\Exceptions\IOException;
+use PHPDevsr\Minify\Exceptions\PatternMatchException;
 use Psr\Cache\CacheItemInterface;
 
 /**

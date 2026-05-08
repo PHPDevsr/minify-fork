@@ -1,8 +1,8 @@
 <?php
 
-namespace MatthiasMullie\Minify\Tests\JS;
+namespace PHPDevsr\Minify\Tests\JS;
 
-use MatthiasMullie\Minify\Tests\CompatTestCase;
+use PHPDevsr\Minify\Tests\CompatTestCase;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 /**
@@ -22,7 +22,7 @@ class JSTest extends CompatTestCase
      */
     public function testAddFileException()
     {
-        $this->expectException('MatthiasMullie\Minify\Exceptions\IOException');
+        $this->expectException('PHPDevsr\Minify\Exceptions\IOException');
 
         $minifier = $this->getMinifier();
         $minifier->addFile('/sample/source/nothing');
