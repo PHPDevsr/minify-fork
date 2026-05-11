@@ -14,8 +14,8 @@ namespace PHPDevsr\Minify;
 
 use PHPDevsr\Minify\Exceptions\FileImportException;
 use PHPDevsr\Minify\Exceptions\PatternMatchException;
-use MatthiasMullie\PathConverter\Converter;
-use MatthiasMullie\PathConverter\ConverterInterface;
+use PHPDevsr\PathConverter\Converter;
+use PHPDevsr\PathConverter\ConverterInterface;
 
 /**
  * CSS minifier.
