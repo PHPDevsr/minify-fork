@@ -1,8 +1,8 @@
 <?php
 
-namespace MatthiasMullie\Minify\Tests\JS;
+namespace PHPDevsr\Minify\Tests\JS;
 
-use MatthiasMullie\Minify\JS;
+use PHPDevsr\Minify\JS;
 
 class NoSaveJS extends JS
 {

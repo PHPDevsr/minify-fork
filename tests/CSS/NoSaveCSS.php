@@ -1,8 +1,8 @@
 <?php
 
-namespace MatthiasMullie\Minify\Tests\CSS;
+namespace PHPDevsr\Minify\Tests\CSS;
 
-use MatthiasMullie\Minify\CSS;
+use PHPDevsr\Minify\CSS;
 
 class NoSaveCSS extends CSS
 {

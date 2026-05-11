@@ -1,10 +1,10 @@
-# Minify
+# Minify Fork (PHPDevsr)
 
-[![Build status](https://img.shields.io/github/actions/workflow/status/matthiasmullie/minify/test.yml?branch=master&style=flat-square)](https://github.com/matthiasmullie/minify/actions/workflows/test.yml)
-[![Code coverage](http://img.shields.io/codecov/c/gh/matthiasmullie/minify?style=flat-square)](https://codecov.io/gh/matthiasmullie/minify)
-[![Latest version](http://img.shields.io/packagist/v/matthiasmullie/minify?style=flat-square)](https://packagist.org/packages/matthiasmullie/minify)
-[![Downloads total](http://img.shields.io/packagist/dt/matthiasmullie/minify?style=flat-square)](https://packagist.org/packages/matthiasmullie/minify)
-[![License](http://img.shields.io/packagist/l/matthiasmullie/minify?style=flat-square)](https://github.com/matthiasmullie/minify/blob/master/LICENSE)
+[![Latest version](http://img.shields.io/packagist/v/phpdevsr/minify-fork?style=flat-square)](https://packagist.org/packages/phpdevsr/minify-fork)
+[![Downloads total](http://img.shields.io/packagist/dt/phpdevsr/minify-fork?style=flat-square)](https://packagist.org/packages/phpdevsr/minify-fork)
+[![License](http://img.shields.io/packagist/l/phpdevsr/minify-fork?style=flat-square)](https://github.com/PHPDevsr/minify-fork/blob/master/LICENSE)
+
+> **Fork of [matthiasmullie/minify](https://github.com/matthiasmullie/minify)** — original library by [Matthias Mullie](https://www.mullie.eu).
 
 
 Removes whitespace, strips comments, combines files (incl. `@import` statements and small assets in CSS files), and optimizes/shortens a few common programming patterns, such as:
@@ -29,7 +29,7 @@ And it comes with a huge test suite.
 ### CSS
 
 ```php
-use MatthiasMullie\Minify;
+use PHPDevsr\Minify;
 
 $sourcePath = '/path/to/source/css/file.css';
 $minifier = new Minify\CSS($sourcePath);
@@ -68,7 +68,7 @@ The object constructor accepts 0, 1 or multiple paths of files, or even complete
 All CSS/JS passed along, will be combined into 1 minified file.
 
 ```php
-use MatthiasMullie\Minify;
+use PHPDevsr\Minify;
 $minifier = new Minify\JS($path1, $path2);
 ```
 
@@ -132,10 +132,10 @@ $minifier->setImportExtensions($extensions);
 
 ## Installation
 
-Simply add a dependency on `matthiasmullie/minify` to your composer.json file if you use [Composer](https://getcomposer.org/) to manage the dependencies of your project:
+Simply add a dependency on `phpdevsr/minify-fork` to your composer.json file if you use [Composer](https://getcomposer.org/) to manage the dependencies of your project:
 
 ```sh
-composer require matthiasmullie/minify
+composer require phpdevsr/minify-fork
 ```
 
 Although it's recommended to use Composer, you can actually [include these files](https://github.com/matthiasmullie/minify/issues/83) anyway you want.

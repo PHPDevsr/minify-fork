@@ -1,9 +1,9 @@
 <?php
 
-namespace MatthiasMullie\Minify\Tests\JS;
+namespace PHPDevsr\Minify\Tests\JS;
 
-use MatthiasMullie\Minify;
-use MatthiasMullie\Minify\Tests\CompatTestCase;
+use PHPDevsr\Minify;
+use PHPDevsr\Minify\Tests\CompatTestCase;
 use MatthiasMullie\Scrapbook\Adapters\MemoryStore;
 use MatthiasMullie\Scrapbook\Psr6\Pool;
 
@@ -171,7 +171,7 @@ class AbstractTest extends CompatTestCase
 
     public function testCheckFileOpenFail()
     {
-        $this->expectException('MatthiasMullie\Minify\Exceptions\IOException');
+        $this->expectException('PHPDevsr\Minify\Exceptions\IOException');
 
         $minifier = new Minify\JS();
         $wrongPath = '';
@@ -185,7 +185,7 @@ class AbstractTest extends CompatTestCase
 
     public function testCheckFileWriteFail()
     {
-        $this->expectException('MatthiasMullie\Minify\Exceptions\IOException');
+        $this->expectException('PHPDevsr\Minify\Exceptions\IOException');
 
         $minifier = new Minify\JS();
         $wrongPath = '';

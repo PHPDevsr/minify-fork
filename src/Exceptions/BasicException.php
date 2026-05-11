@@ -10,9 +10,9 @@
  * @license MIT License
  */
 
-namespace MatthiasMullie\Minify\Exceptions;
+namespace PHPDevsr\Minify\Exceptions;
 
-use MatthiasMullie\Minify\Exception;
+use PHPDevsr\Minify\Exception;
 
 /**
  * Basic Exception Class.
